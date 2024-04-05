@@ -17,3 +17,7 @@ pub mod error;
 pub mod misc;
 
 pub mod entropy;
+
+pub mod flash;
+
+pub mod settings;
