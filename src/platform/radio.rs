@@ -6,7 +6,7 @@ use core::ops::BitOr;
 
 use alloc::string::String;
 
-use crate::{crypto::OTCryptoKeyRef, error::OTError};
+use crate::platform::{crypto::OTCryptoKeyRef, error::OTError};
 
 // aMaxPHYPacketSize (IEEE 802.15.4-2006)
 pub const OT_RADIO_FRAME_MAX_SIZE: usize = 127;

@@ -2,7 +2,7 @@
 //! Platform abstraction for non-volatile storage of settings
 //!
 
-use crate::error::OTError;
+use crate::platform::error::OTError;
 
 pub enum OTSettingsKeys {
     // Active Operational Dataset
